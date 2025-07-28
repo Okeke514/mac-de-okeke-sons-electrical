@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-    <h1>Mac de Okeke & Sons Electrical Store.</h1>
+    <h1>Mac de Okeke & Sons</h1>
     <p>Trusted Electrical Experts Since 1995</p>
   </header>
 
@@ -51,10 +51,11 @@
 
   <section>
     <h2>Contact Us</h2>
-    <form>
-      <input type="text" placeholder="Full Name" required />
-      <input type="email" placeholder="Email Address" required />
-      <textarea rows="5" placeholder="Your message"></textarea>
+    <form action="https://formspree.io/f/mdkdzgog" method="POST">
+      <input type="hidden" name="_subject" value="New message from website" />
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <textarea name="message" rows="5" placeholder="Your message" required></textarea>
       <button type="submit">Send Message</button>
     </form>
     <iframe 
@@ -65,8 +66,8 @@
 
   <footer>
     <p><strong>Mac de Okeke & Sons</strong></p>
-    <p>Baboko secondary school Street,Lagos,Nigeria</p>
-    <p>Phone: 08033706853,08064638927 </p>
+    <p>123 Powerline Street, Lagos, Nigeria</p>
+    <p>Phone: +234 810 000 1234</p>
     <div class="social">
       <a href="https://wa.me/2348100001234" target="_blank">📱 WhatsApp</a> |
       <a href="https://facebook.com/macdeokeke" target="_blank">🔵 Facebook</a> |
